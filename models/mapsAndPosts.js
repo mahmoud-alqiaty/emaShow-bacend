@@ -20,7 +20,10 @@ const mapsImagesSchemma = mongoose.Schema({
           minTemp: Number,
           wind: Number,
           date: String,
-          dsc: [String]
+          rainPercentage: String,
+          notes: String,
+          rainingWeight: String,
+          // dsc: [String]
         }
       ]
     }],
