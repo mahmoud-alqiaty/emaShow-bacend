@@ -24,18 +24,18 @@ const mapsImagesSchemma = mongoose.Schema({
           notes: String,
           rainingWeight: String,
           ms: {
-            windStart: Number,
-            windEnd: Number,
-            windDirection: Number,
-            waveStart: String,
-            waveEnd: String,
+            windStart: {type: Number, default: 0},
+            windEnd: {type: Number, default: 0},
+            windDirection: {type: Number, default: 0},
+            waveStart: {type: String, default: "1.5"},
+            waveEnd: {type: String, default: "2.5"},
           },
           rs: {
-            windStart: Number,
-            windEnd: Number,
-            windDirection: Number,
-            waveStart: String,
-            waveEnd: String,
+            windStart: {type: Number, default: 0},
+            windEnd: {type: Number, default: 0},
+            windDirection: {type: Number, default: 0},
+            waveStart: {type: String, default: "1.5"},
+            waveEnd: {type: String, default: "2.5"},
           }
          
           // dsc: [String]
