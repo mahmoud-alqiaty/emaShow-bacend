@@ -24,13 +24,20 @@ const mapsImagesSchemma = mongoose.Schema({
           notes: String,
           rainingWeight: String,
           ms: {
-            wind: [Number],
-            wave: [Number]
+            windStart: Number,
+            windEnd: Number,
+            windDirection: Number,
+            waveStart: Number,
+            waveEnd: Number,
           },
           rs: {
-            wind: [Number],
-            wave: [Number]
+            windStart: Number,
+            windEnd: Number,
+            windDirection: Number,
+            waveStart: Number,
+            waveEnd: Number,
           },
+         
           // dsc: [String]
         }
       ]
