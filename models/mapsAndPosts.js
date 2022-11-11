@@ -27,16 +27,16 @@ const mapsImagesSchemma = mongoose.Schema({
             windStart: Number,
             windEnd: Number,
             windDirection: Number,
-            waveStart: Number,
-            waveEnd: Number,
+            waveStart: String,
+            waveEnd: String,
           },
           rs: {
             windStart: Number,
             windEnd: Number,
             windDirection: Number,
-            waveStart: Number,
-            waveEnd: Number,
-          },
+            waveStart: String,
+            waveEnd: String,
+          }
          
           // dsc: [String]
         }
